@@ -20,11 +20,11 @@ public class DesktopLauncher {
 
     public static String getPNGPath() {
         String os = System.getProperty("os.name").toLowerCase();
-        String path = "snake.png";
+        String path = "core/assets/snake_32.png";
         if (os.contains("window") || os.contains("linux")) {
-            path = "snake_32.png";
+            path = "core/assets/snake_32.png";
         } else if (os.contains("mac"))
-            path = "snake_128.png";
+            path = "core/assets/snake_128.png";
         return path;
     }
 
