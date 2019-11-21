@@ -10,7 +10,7 @@ public class GreetingState extends State {
 
     public GreetingState(StateManager stateManager) {
         super(stateManager);
-        texture = new Texture("splash2.jpg");
+        texture = new Texture("core/assets/splash2.jpg");
     }
 
     void handleInput() {

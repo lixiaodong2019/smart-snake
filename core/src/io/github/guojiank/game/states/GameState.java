@@ -30,7 +30,7 @@ public class GameState extends State {
 
     public GameState(StateManager stateManager) {
         super(stateManager);
-        bg = Gdx.audio.newMusic(Gdx.files.internal("WhereIstheLove.mp3"));
+        bg = Gdx.audio.newMusic(Gdx.files.internal("core/assets/WhereIstheLove.mp3"));
         bg.setLooping(true);
         bg.play();
         r = new Random();

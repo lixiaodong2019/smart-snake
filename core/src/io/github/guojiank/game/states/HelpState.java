@@ -10,7 +10,7 @@ public class HelpState extends State {
 
     public HelpState(StateManager stateManager) {
         super(stateManager);
-        this.texture = new Texture("help.jpg");
+        this.texture = new Texture("core/assets/help.jpg");
     }
 
     void handleInput() {
